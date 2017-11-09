@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nodeprogress.CustomNodeProgressBar
+        android:id="@+id/mPb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:progressDrawable="@drawable/progress_horizontal"
+        android:visibility="visible"
+        android_custom:node_pb_bg_color="#99000000"
+        android_custom:node_pb_bg_radian="200dp"
+        android_custom:node_pb_bg_second_color="#e1e6e8"
+        android_custom:node_pb_foreground_color_end="#ff9c29"
+        android_custom:node_pb_foreground_color_start="#ffea00"
+        android_custom:node_pb_line_width="30"
+        android_custom:node_pb_max="150"
+        android_custom:node_pb_padding="2dp"
+        android_custom:node_pb_radian="200dp"
+        android_custom:node_pb_space_margRight="30"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/mTvPlus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_rectangle_red"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="+"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/mTvReduce"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_rectangle_red"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="-"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

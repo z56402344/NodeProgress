@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NodeProgressBar"  >
+        <!--pb高度-->
+        <attr name="node_pb_height" format="dimension"/>
+        <!--pb背景色-->
+        <attr name="node_pb_bg_color" format="color"/>
+        <!--pbSecondProgress颜色-->
+        <attr name="node_pb_bg_second_color" format="color"/>
+        <!--pb前景色起始颜色-->
+        <attr name="node_pb_foreground_color_start" format="color"/>
+        <!--pb前景色结束颜色-->
+        <attr name="node_pb_foreground_color_end" format="color"/>
+        <!--背景弧度-->
+        <attr name="node_pb_bg_radian" format="dimension"/>
+        <!--进度条弧度-->
+        <attr name="node_pb_radian" format="dimension"/>
+        <!--内部进度条距离外部的padding值-->
+        <attr name="node_pb_padding" format="dimension"/>
+        <!-- 每段节点间的进度值 -->
+        <attr name="node_pb_line_width" format="integer"/>
+        <!-- 距离右边的内边距 -->
+        <attr name="node_pb_space_margRight" format="integer"/>
+        <!-- 进度最大值 -->
+        <attr name="node_pb_max" format="integer"/>
+    </declare-styleable>
+
+</resources>
