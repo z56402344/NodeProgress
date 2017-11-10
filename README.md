@@ -31,13 +31,6 @@
 	
 ```
 
-## 效果图展示
-```
-![Image][1]
-
-[1]: http://7xs7n9.com1.z0.glb.clouddn.com/device-2017-11-09-113854.gif
-
-```
 
 ## 关于我
 ```
@@ -46,6 +39,13 @@
 Android博客周刊  http://androidblog.cn/
 2000人QQ大群：149581646
 
-
-
 ```
+
+## 效果图展示
+
+![Image][1]
+
+[1]: http://7xs7n9.com1.z0.glb.clouddn.com/device-2017-11-09-113854.gif
+
+
+
