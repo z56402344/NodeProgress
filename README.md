@@ -3,6 +3,7 @@
 1.可以设置渐变色的起始和结束颜色
 2.通过设置每段线的长度控制节点数
 3.可控制最后节点的位置
+```
 
 ## XML
 ```
@@ -27,7 +28,8 @@
         android_custom:node_pb_padding="2dp"
         android_custom:node_pb_radian="200dp"
         android_custom:node_pb_space_margRight="30"/>
-
+	
+```
 
 ![Image][1]
 
